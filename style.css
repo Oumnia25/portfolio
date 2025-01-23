@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+:root {
+
+  --color-primary: #ead5ea;
+  --color-secondary: #e1afd4;
+  --color-accent: #a96890;
+  --color-light: #f4f4f4;
+  --color-dark: #333;
+  --color-black: #0b0a0a;
+  --color-background: #f9f9f9;
+  --color-footer-bg: #1d1d1d;
+  --color-footer-text: white;
+  --color-hover: #b64be4;
+
+  --font-primary: "DM Serif Display", serif;
+  --font-size-l: 4rem;
+  --font-size-m: 2.5rem;
+  --font-size-s: 1rem;
+  --font-size-xs: 0.8rem;
+
+
+  --profile-pic-l: 250px;
+  --profile-pic-m: 120px;
+  --profile-pic-s: 100px;
+  --icon-size-l: 80px;
+  --icon-size-m: 50px;
+  --icon-size-s: 40px;
+
+  
+  --margin-bottom-l: 50px;
+  --margin-bottom-s: 20px;
+  --padding-s: 10px;
+  --padding-m: 15px;
+  --padding-l: 20px;
+  --gap-l: 40px;
+  --gap-s: 10px;
+
+
+  --border-radius-s: 5px;
+  --border-radius-m: 8px;
+
+  
+  --line-height: 1.5;
+  --max-width-paragraph: 80%;
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  --media-tablet-min: 768px;
+  --media-tablet-max: 1024px;
+  --media-mobile-max: 767px;
+}
+
+
+* {
+  font-family: "DM Serif Display", serif;
+}
+body{
+  background-color: rgb(235, 235, 235);
+  margin: 0;
+}

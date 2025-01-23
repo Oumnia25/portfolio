@@ -1,0 +1,39 @@
+.sobremi {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.inicio,
+.sobre-mi {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.inicio {
+  background-color: #ead5ea;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.inicio h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.foto-perfil {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sobre-mi {
+  background-color: #e1afd4;
+  text-align: center;
+  
+}

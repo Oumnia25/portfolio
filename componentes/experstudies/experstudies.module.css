@@ -1,0 +1,89 @@
+.estudios-experiencia {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #ead5ea;
+  align-items: center;
+  height: 70vh;
+  margin: 20px 0;
+  width: 100%;
+}
+
+#experiencia, #estudios {
+  display: none;
+  
+}
+
+#experiencia h3, #estudios h3 {
+  font-size: 30px;
+  color: #0b0a0a;
+  margin-bottom: 10px;
+}
+
+#experiencia p, #estudios p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#experiencia, #estudios ul {
+  list-style-type: none;
+  padding: 0;
+}
+#estudios li{
+  font-size: 25px;
+}
+
+
+#experiencia li {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+#estudios div {
+  margin-bottom: 20px;
+}
+
+#estudios p {
+  font-size: 20px;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #e1afd4;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #a96890;
+}
+
+@media (max-width: 768px) {
+#experiencia li, #estudios li{
+  font-size: 13px;
+}
+#experiencia h3, #estudios h3 {
+  font-size: 20px;
+}
+#experiencia p, #estudios p {
+  font-size: 15px;
+}
+
+
+  button {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  #experiencia li, #estudios div {
+    margin: 5px 0;
+  }
+
+  #experiencia ul {
+    padding-left: 15px;
+  }
+}
